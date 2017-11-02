@@ -66,8 +66,9 @@ nav li {
 nav a {
   vertical-align: bottom;
   line-height: 1.6;
-  font-size: 1rem;
+  font-size: 16px;
   color: #4a4a4a;
+  font-family: "Roboto-Regular", sans-serif;
 }
 
 header .icon {
@@ -119,7 +120,7 @@ header .mobile {
   display: flex;
   background-image: url(../images/banner-landingpage.jpg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   justify-content: flex-start;
   align-items: flex-start;
@@ -127,7 +128,8 @@ header .mobile {
 }
 
 #sign-up-cta {
-  margin: 170px auto 170px 100px;
+  margin-top: 170px;
+  margin-left: 100px;
   padding: 0 5rem 2.5rem 5rem;
   border: solid 1px #979797;
   border-radius: 4px;
