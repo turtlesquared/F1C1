@@ -38,6 +38,7 @@ html {
 
 header {
   position: fixed;
+  z-index: 1;
   width: 100%;
   border-bottom: solid 1px #c6c1c1;
   background-color: white;
@@ -51,6 +52,7 @@ header .content {
 
 header .logo {
   flex: 1;
+  padding-left: 30px;
 }
 
 header nav ul {
@@ -114,6 +116,10 @@ header .mobile {
 
 #sign-up-section {
   display: flex;
+  background-image: url(../images/banner-landingpage.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
