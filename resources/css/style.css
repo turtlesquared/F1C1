@@ -296,12 +296,10 @@ header .mobile {
 
 #filters-section .content h2 {
   font-size: 2.25rem;
-  font-family: "Roboto-Bold", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: white;
   opacity: 100%;
- 
-  padding-bottom: .50rem;
 }
 
 #filters-section .content h3 {
@@ -361,13 +359,15 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 #quotes-section content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
@@ -378,6 +378,7 @@ header .mobile {
 
 #quotes-section quote-citation {
   height: 1.875rem;
+  padding-left: 30px;
 }
 
 @media only screen and (max-width: 760px) {
@@ -412,6 +413,10 @@ footer .content {
 
 footer .copyright {
   flex-grow: 1;
+  font-family: "Roboto-Regular", sans-serif;
+  padding-left: 32px;
+  font-size: 12px;
+  color: white;
 }
 
 @media only screen and (min-width: 760px) {
