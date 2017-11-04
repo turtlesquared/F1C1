@@ -280,6 +280,11 @@ header .mobile {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
   }
+
+  .feature .content {
+    margin: 0;
+    padding: 1.25rem 0 1.875rem 0;
+  }
 }
 
 /* Filters Section */
@@ -391,7 +396,7 @@ header .mobile {
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
